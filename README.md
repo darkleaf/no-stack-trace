@@ -1,8 +1,10 @@
 # darkleaf.no-stack-trace
 
+[![Clojars Project](https://img.shields.io/clojars/v/darkleaf/no-stack-trace.svg)](https://clojars.org/darkleaf/no-stack-trace)
+
 This is a drop-in replacement for `ex-info`:
 
-```
+```clojure
 (ns your.ns
   (:require
     [darkleaf.no-stack-trace :as nst]))
